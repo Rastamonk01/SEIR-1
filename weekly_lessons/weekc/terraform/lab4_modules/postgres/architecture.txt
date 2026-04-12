@@ -1,9 +1,12 @@
 Internet
    ↓
-WAF (Armor)
+WAF
    ↓
 HTTPS LB
    ↓
-MIG (auto-scaling)
+MIG
    ↓
-Postgres (Cloud SQL, private)
+   ├── Chewbacca (bad)
+   └── Han (Secret Manager) 🔥
+   ↓
+Postgres (private)
