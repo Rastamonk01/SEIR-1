@@ -19,6 +19,7 @@ resource "google_compute_backend_service" "backend" {
   }
   # security_policy = google_compute_security_policy.waf.id 
   # security_policy = var.enable_waf ? google_compute_security_policy.waf[0].id : null
+  # security_policy = module.waf.security_policy_id
 }
 
 #URL Map
